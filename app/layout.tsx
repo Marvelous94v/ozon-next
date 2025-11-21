@@ -30,7 +30,9 @@ export default function RootLayout({ children }: Readonly<{
       <body className={GTEestiProText.className}>
         <Header />
         <Cart />
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
